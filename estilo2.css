@@ -1,0 +1,339 @@
+*{
+
+margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #1a0321
+}
+header{
+	width: 100%
+	height: 100%
+	box-shadow: 0 4px 25px -22px black;
+
+
+}
+}
+.logo{
+	height: 80;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo h1 b{
+	color: #00c800;
+}	
+
+.centro{
+	position: relative;
+	left: 0px;
+	text-align: center;
+	top: 50px;
+
+}
+.header-contenido{
+	position: relative;
+	left: 0px;
+	text-align: center;
+	top: 0px;
+
+}
+
+.parrafo{
+	position: relative;
+	top: 150px;
+	left: 15px;
+
+	color: white
+}
+	
+h1{
+	color: white
+}	
+
+	
+	
+	
+	
+
+
+video{
+	box-shadow: 0px 0px 10px 5px white;
+	position: relative;
+	top: 150px;
+}
+.testimonios{
+	position: relative;
+	text-align: center;
+	left: 0px;
+	top: 350px;
+	color: #fff;
+	transition:3s;
+
+}
+.btn-neon{
+	position: relative;
+	top: 60px;
+	left: 500px;
+	padding: 10px 20px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-neon:hover{
+	background: #a945c7;
+	box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+	transition-delay: 0.5s;
+}
+.btn-neon span{
+	position: absolute;
+	display: block;
+	}
+	#span1{
+		top: 0px;
+		left: -100%;
+		width: 100%
+		height: 2px;
+		background: linear-gradient(90deg, transparent, #a945c7)
+	}
+	.btn-neon:hover #span1{
+		left: 100%;
+		transition: 1s;
+
+	}
+	#span3{
+		bottom:0; 
+		right: -100%;
+		width: 100%
+		height: 2px;
+		background: linear-gradient(270deg, transparent, #a945c7)
+	}
+	.btn-neon:hover #span3{
+		right: 100%;
+		transition: 1s;
+		transition-delay: 0.5;
+
+	}
+	#span2{
+		top: -100; 
+		right: 0%;
+		width: 2px%
+		height: 100%;
+		background: linear-gradient(180deg, transparent, #a945c7)
+	}
+	.btn-neon:hover #span2{
+		top: 100%;
+		transition: 1s;
+		transition-delay: 0.25;
+
+	}
+	.fotos{
+		padding: 50px;
+		position: relative;
+		text-align: center;
+		top: 220px;
+		left: 0px;
+		
+}
+.foto1{
+	position: relative;
+	right: 65px;
+
+	width: 350px;
+	height: 550px;
+	box-shadow: 0px 0px 10px 3px white;
+}
+.foto2{
+	position: relative;
+	left: 65px;
+
+	width: 350px;
+	height: 550px;
+	 box-shadow: 0px 0px 10px 3px white;
+}
+.foto3{
+width: 350px;
+	height: 550px;
+	box-shadow: 0px 0px 10px 3px white;
+}
+.text{
+	position: relative;
+	text-align: center;
+	top: 200px;
+    left: 0px;
+	text-shadow: 0 0 15px #c0c, 0 0 35px #c0c;;
+	
+}
+
+.contenedor{
+	position: relative;
+	text-align: center;
+	top: 220px;
+}
+.membresias{
+	position: relative;
+	text-align: center;
+	top: 30px;
+}
+.lasmembresias{
+	position: relative;
+	left: 0px;
+	top: 260px;
+	
+
+	}
+	.membresia1{
+		position: relative;
+		text-align: center;
+		color: #ff6900ff
+
+	}
+
+.text1{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 18px
+
+}
+.pago1{
+	color:  #09f
+}
+.membresia2{
+		position: relative;
+		text-align: center;
+		color: #ff6900ff
+
+	}
+
+.text2{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 18px
+
+}
+.membresia3{
+		position: relative;
+		text-align: center;
+		color: #ff6900ff
+
+	}
+
+.text3{
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 18px
+
+}
+.contenedor-membresias3{
+	position: relative;
+	top: 45px;
+}
+.contenedor-membresias2{
+	position: relative;
+	top: 25px;
+}
+.boton-neon{
+	position: relative;
+	right: 425px;
+	top: 220px;
+	padding: 10px 20px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+	
+
+}
+.boton-neon:hover{
+	background: black;
+	box-shadow: 0 0 10px #800000, 0 0 40px #a945c7;
+	transition-delay: 0.3s;
+}
+	
+.boton2{
+	position: relative;
+	left: 530px;
+	top: 548px;
+	padding: 10px 20px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+	}
+.boton2:hover{
+	background: black;
+	box-shadow: 0 0 10px #800000, 0 0 40px #a945c7;
+	transition-delay: 0.3s;
+}
+.boton3{
+	position: relative;
+	left: 930px;
+	top: 525px;
+	padding: 10px 20px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+	}
+.boton3:hover{
+	background: black;
+	box-shadow: 0 0 10px #800000, 0 0 40px #a945c7;
+	transition-delay: 0.3s;
+}
+.medios-pagos{
+	position: relative;
+	text-align: center;
+	top: 680px;
+}
+.medios{
+	position: relative;
+	top: 60px;
+	background: white
+	}
+	.medios{
+height: 350px;
+width: 800px;
+		box-shadow: 0px 0px 20px 2px #00b7ff;
+	}
+	 
+	 footer{
+	 position: absolute;
+	 text-align: center;
+    top: 4200px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
+	 }	
+	 footer{
+	 	box-shadow: 0px 0px 20px 1px white;
+	 }
+	 .footerr{
+	 	color: white;
+	 	position:relative;
+	 	top: 23px;
+	 }
+    
+
+
+
+
+
+
+
